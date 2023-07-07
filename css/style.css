@@ -1,0 +1,493 @@
+/* =========================== Common css start ======================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+q:before,
+q:after {
+  content: "";
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+.custom_btn a {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #6a4df4;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 15px 42px;
+  text-transform: capitalize;
+}
+.title {
+  text-align: center;
+}
+.title h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.title p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 609px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* =========================== Common css end ======================= */
+/* =========================== Navbar css end ======================= */
+nav {
+  background-color: transparent;
+  position: absolute !important;
+  width: 100%;
+  top: 65px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+nav ul li {
+  margin-right: 67px;
+}
+nav ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  transition: 0.4s !important;
+  -webkit-transition: 0.4s !important;
+  -moz-transition: 0.4s !important;
+  -ms-transition: 0.4s !important;
+  -o-transition: 0.4s !important;
+  color: #fff !important;
+}
+nav ul li a:hover {
+  font-weight: 700;
+  color: #4756df !important;
+}
+
+/* =========================== Navbar css end ======================= */
+/* =========================== banner css start ======================= */
+#banner {
+  background-image: url(../images/banner/agenc-Banner\ 1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  padding-top: 315px;
+  padding-bottom: 176px;
+}
+#banner .flex-d {
+  flex-direction: column;
+}
+
+#banner .heading h1 {
+  font-weight: 700;
+  font-size: 75px;
+  width: 950px;
+  margin: 0 auto;
+}
+#banner .info p {
+  width: 621px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+
+/* =========================== banner css end ======================= */
+/* =========================== overview css start ======================= */
+#overview .overview-color {
+  background-color: #e0fff9;
+  width: 1320px;
+  height: 300px;
+  margin-top: 171px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#overview .success {
+  padding-top: 85px;
+  padding-left: 50px;
+  padding-bottom: 185px;
+  
+}
+#overview .success h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #6a4df4;
+  width: 158px;
+}
+#overview .success p {
+  font-size: 35px;
+  font-weight: 600;
+  width: 387px;
+}
+
+#overview .content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #151515;
+  padding-top: 67px;
+}
+#overview .content p {
+  font-size: 20px;
+ font-weight: 500;
+  color: #737373;
+}
+
+/* =========================== overview css end ======================= */
+/* ===================================== Our Provided Services css start ==========================*/
+#services {
+  margin: 167px 0px;
+}
+#services .custom-margin {
+  margin-top: 46px;
+}
+#services .custom-card {
+  text-align: center;
+  padding: 80px 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+#services .custom-card:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+#services .custom-card img {
+  display: inline;
+}
+
+#services .custom-card h2 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #151515;
+  margin: 40px 0 20px 0;
+}
+#services .custom-card p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #737373;
+  width: 326px;
+  margin: 0 auto;
+}
+
+/* ===================================== Our Provided Services css end ==========================*/
+/* ===================================== our recent work css end ==========================*/
+#recent_work {
+  margin: 167px 0px;
+}
+#recent_work .custom-margin {
+  margin-top: 46px;
+}
+#recent_work .custom-card {
+  text-align: center;
+  padding: 80px 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+#recent_work .custom-card:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+#recent_work .custom-card img {
+  display: inline;
+}
+
+#recent_work .custom-card h2 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #151515;
+  margin: 40px 0 20px 0;
+}
+#recent_work .custom-card p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #737373;
+  width: 326px;
+  margin: 0 auto;
+}
+
+/* ===================================== our recent work css end ==========================*/
+/*  =====================================  Why you should choose agence css start ==========================  */
+#agence_work .title h2 {
+  width: 512px;
+  margin: 0 auto;
+}
+#agence_work .title p {
+  width: 802px;
+}
+#agence_work .item h2 {
+  color: #151515;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px 0px;
+}
+#agence_work .item {
+  margin-top: 130px;
+  margin-bottom: 118px;
+}
+#agence_work .item p {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 400;
+  width: 344px;
+}
+#agence_work .item .custom-row-margin {
+  row-gap: 80px;
+}
+
+/*  =====================================  Why you should choose agence css end ==========================  */
+/*  =====================================  customer review css start ==========================  */
+#reviews .item {
+  margin-top: 113px;
+  padding: 54px 58px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  margin-bottom: 227px;
+}
+#reviews .item:hover {
+  background-color: #f4efef;
+}
+#reviews .item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7b7b7b;
+  width: 307px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#reviews .item h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #232323;
+}
+#reviews .item .icon a i {
+  padding-bottom: 34px;
+}
+#reviews .item h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7b7b7b;
+}
+#reviews .item .custom-flex {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+/*  =====================================  customer review css end ==========================  */
+/* ===================================== Form css start  ==========================  */
+#design {
+  background-color: #f3f3f3;
+  padding: 150px 0;
+}
+#design .text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#design .text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #151515;
+  width: 441px;
+  margin-bottom: 20px;
+}
+#design .text p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 526px;
+  color: #7b7b7b;
+  margin-top: 10px;
+}
+#design .form {
+  padding: 61px 0px;
+  background-color: #fff;
+  width: 536px;
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#design .form h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #151515;
+  text-align: center;
+}
+#design .form form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 43px;
+}
+#design .form form label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #151515;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+#design .form form input {
+  font-size: 16px;
+  font-weight: 400;
+  color: #d0d0d0;
+  padding: 19px 0px 19px 43px;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 20px;
+}
+#design .form form button {
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  padding: 19px 0px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #6a4df4;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* ===================================== Form css end ==========================  */
+/* ===================================== Footer css start ==========================  */
+footer .img {
+  padding-top: 150px;
+}
+footer p {
+  padding-top: 30px;
+  padding-bottom: 138px;
+  width: 356px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7B7B7B;
+}
+footer .main {
+  display: flex;
+justify-content: flex-end;
+column-gap: 131px;
+padding-top: 150px;
+margin-bottom: 50px;
+
+}
+footer .main .about {
+  padding-bottom: 50px;
+}
+footer .main .about h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #151515;
+}
+footer .main .about ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7B7B7B;
+}
+
+footer .main .about ul  {
+  margin-top: 40px;
+
+}
+footer .main .about ul li   {
+  padding-top: 18px;
+}
+.copy-right  p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #D0D0D0;
+
+text-align: center;
+ padding: 50px 0px;
+}
+
+
+
+
+/* ===================================== Footer css end ==========================  */
